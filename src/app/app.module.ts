@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
+    CommonModule,
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
@@ -23,7 +24,8 @@ import { CommonModule } from '@angular/common';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
+    ProductDetailsComponent
   ],
   bootstrap: [AppComponent]
 })
